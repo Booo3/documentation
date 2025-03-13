@@ -4,4 +4,20 @@
          <loc>https://docs.thedevs.work/</loc>
          <lastmod>2025-03-13</lastmod>
     </url>
+    <url>
+         <loc>https://docs.thedevs.work/gettingstarted/</loc>
+         <lastmod>2025-03-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.thedevs.work/styleguide/</loc>
+         <lastmod>2025-03-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.thedevs.work/troubleshoot/</loc>
+         <lastmod>2025-03-13</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.thedevs.work/workflow/</loc>
+         <lastmod>2025-03-13</lastmod>
+    </url>
 </urlset>

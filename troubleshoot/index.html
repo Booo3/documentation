@@ -8,19 +8,25 @@
       
       
       
+        <link rel="canonical" href="https://docs.thedevs.work/troubleshoot/">
       
       
+        <link rel="prev" href="../styleguide/">
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      
+        <link rel="next" href="../workflow/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.8">
     
     
       
-        <title>The Devs Work</title>
+        <title>Troubleshoot - The Devs Work</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.8608ea7d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.8608ea7d.min.css">
       
       
 
@@ -39,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +63,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#011-broken-build-configuration" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="The Devs Work" class="md-header__button md-logo" aria-label="The Devs Work" data-md-component="logo">
+    <a href=".." title="The Devs Work" class="md-header__button md-logo" aria-label="The Devs Work" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -89,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Troubleshoot
             
           </span>
         </div>
@@ -164,7 +175,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="The Devs Work" class="md-nav__button md-logo" aria-label="The Devs Work" data-md-component="logo">
+    <a href=".." title="The Devs Work" class="md-nav__button md-logo" aria-label="The Devs Work" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -182,7 +193,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -203,7 +214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/gettingstarted/" class="md-nav__link">
+      <a href="../gettingstarted/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -224,7 +235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/styleguide/" class="md-nav__link">
+      <a href="../styleguide/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -242,10 +253,29 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/troubleshoot/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Troubleshoot
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -255,6 +285,42 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#011-broken-build-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.1.1 Broken Build Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#021-i-have-a-bunch-of-images-instead-of-a-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.2.1 I have a bunch of Images instead of a Video
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -266,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/workflow/" class="md-nav__link">
+      <a href="../workflow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -298,6 +364,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#011-broken-build-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.1.1 Broken Build Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#021-i-have-a-bunch-of-images-instead-of-a-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      0.2.1 I have a bunch of Images instead of a Video
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -308,8 +400,78 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+  <h1>Troubleshoot</h1>
+
+<ul>
+<li><a href="./"><code>0.0</code> Troubleshooting</a><ul>
+<li><a href="./"><code>0.1</code> Generate Visual Studio project files</a><ul>
+<li><a href="./#BuildConfiguration"><code>0.1.1</code> Broken Build Configuration</a></li>
+</ul>
+</li>
+<li><a href="./"><code>0.2</code> Build Project</a></li>
+<li><a href="./"><code>0.3</code> Rendering</a><ul>
+<li><a href="./#CHAPImageSeqencetovid"><code>0.3.1</code> I have a bunch of Images instant of a Video</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="CHAPBuildConfiguration"></a></p>
+<h3 id="011-broken-build-configuration"><code>0.1.1</code> Broken Build Configuration</h3>
+<p>This can make the Project stop from building.</p>
+<blockquote>
+<p>Here is a an example of the output:</p>
+</blockquote>
+<pre><code>warning: The element 'BuildConfiguration' in namespace 'https://www.unrealengine.com/BuildConfiguration' has invalid child element 'ProcessorCountMultiplier' in namespace 'https://www.unrealengine.com/BuildConfiguration'. List of possible elements expected: 'bUseUnityBuild, bCheckLicenseViolations, bUseUBTMakefiles, ArtifactDirectory, DefaultWarningLevel, bAdaptiveUnityCompilesHeaderFiles, bOmitPCDebugInfoInDevelopment, MaxParallelActions, bUseVerse, ModuleIncludePrivateWarningLevel, bBreakBuildOnLicenseViolation, bUseInlining, bRetainFramePointers, bStripSymbols, bXGENoWatchdogThread, bSupportEditAndContinue, bPublicSymbolsByDefault, StaticAnalyzer, ModuleIncludePathWarningLevel, bUseIncrementalLinking, bDeterministic, bUseShippingPhysXLibraries, StaticAnalyzerOutputType, BaseLogFileName, bAllowXGE, ClangCompileActionWeight, bCodeCoverage, bTuneDebugInfoForLLDB, ...
+</code></pre>
+<blockquote>
+<p>How to fix this:</p>
+</blockquote>
+<p>Delete the "BuildConfiguration.xml" file from directory "\AppData\Roaming\Unreal Engine\UnrealBuildTool\"</p>
+<p><a name="CHAPImageSeqencetovid"></a></p>
+<h3 id="021-i-have-a-bunch-of-images-instead-of-a-video"><code>0.2.1</code> I have a bunch of Images instead of a Video</h3>
+<p>This is a normal thing for 3D programs to output an <code>Image Seqence</code>, instead of a video, any editing software should have a way of importing that as a video. If that is not the case it can be easily converted to Video too!</p>
+<p>First download a program called <code>ffmpeg</code> this can be done via the terminal or Search via the Web.</p>
+<blockquote>
+<p>Install <code>ffmpeg</code> terminal command:</p>
+</blockquote>
+<pre><code>winget install Gyan.FFmpeg
+</code></pre>
+<blockquote>
+<p>Then open the terminal in the folder where the <code>Image Seqence</code> is and run this command:</p>
+</blockquote>
+<pre><code>ffmpeg -f image2 -r 24 -i imagename.%04d.jpeg -vcodec libx264 -crf 18  -pix_fmt yuv420p output.mp4
+</code></pre>
+<blockquote>
+<p>Set the framerate with:</p>
+</blockquote>
+<pre><code>-r 24 
+</code></pre>
+<blockquote>
+<p>And make sure the Image name is set correct  </p>
+</blockquote>
+<pre><code>imagename.%04d.jpe
+</code></pre>
+<blockquote>
+<p>The <code>.%04d.jpeg</code> sets how many <code>characters</code> the file name contains, in this case the filename is <code>imagename.0000.jpeg</code> <code>4 characters</code>.</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -343,10 +505,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
